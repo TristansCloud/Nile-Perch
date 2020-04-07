@@ -49,8 +49,8 @@ ltt<-ltt[ltt$site %in% sites,]    #removes nontypical sites
 remove(sites,capwords)
 
 np<-ltt %>% 
-  filter(fish_code==7,!is.na(sl),
-         sl<=50) %>%   #fix these missing values!
+  filter(fish_code==7,!is.na(sl), #fix these missing values!
+         sl<=50) %>%   
   mutate(age_class = case_when(sl<=15 ~ "one",
                                sl>15&sl<=25 ~ "two",
                                sl>25 ~ "three"),

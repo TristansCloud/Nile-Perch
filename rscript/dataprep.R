@@ -15,7 +15,14 @@
 library(tidyverse)
 
 stom<-read_csv("stomachs.csv")
-ltt<-read_csv("ltt-with-NAs.csv.csv")
+ltt<-read_csv("ltt-with-NAs.csv")
+np<-read_csv("ltt-with-NAs.csv") %>% 
+  filter(fish_code == 7)
+
+codes<-unique(ltt$fish_code)
+for(i in codes){
+  str(i)
+}
 
 matched<-left_join(stom,ltt,by = c("year","month","day","tag"))
 
@@ -25,3 +32,6 @@ NAs<-matched %>%
          | is.na(site_type))
 
 write_csv(NAs, path = "fixing-NAs/entries-with-NA.csv", na = "")
+
+ggplot(data = np) +
+  stat_bin(aes(x = date), binwidth = 30)
