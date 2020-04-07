@@ -1,5 +1,11 @@
+capwords <- function(s, strict = FALSE) {
+  cap <- function(s) paste(toupper(substring(s, 1, 1)),
+                           {s <- substring(s, 2); if(strict) tolower(s) else s},
+                           sep = "", collapse = " " )
+  sapply(strsplit(s, split = " "), cap, USE.NAMES = !is.null(names(s)))
+}
 
-ltt<-read_csv("C:/Users/tk/Dropbox/Chapman lab/TK and Ronny/2nd data analysis/Stomachs/Data/good_cols_ltt.csv") %>% 
+ltt<-read_csv("ltt-with-NAs.csv") %>% 
   mutate(net = toupper(net),
          comments = toupper(comments),
          site = capwords(site),
@@ -20,6 +26,18 @@ ltt<-read_csv("C:/Users/tk/Dropbox/Chapman lab/TK and Ronny/2nd data analysis/St
          !grepl('MUK', net),
          !grepl('BOUGHT', net),
          !grepl('BOUGHT', comments))
+
+# Get number of samples for group
+
+
+intermediate<-ltt %>% 
+  filter(fish_code==7) %>% 
+  group_by(year,month) %>% 
+  count(year)
+intermediate %>%
+  group_by(year) %>% 
+  count(year)
+
 
 
 ## Group by distance from shore:

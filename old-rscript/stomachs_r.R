@@ -156,7 +156,7 @@ return(cpue)
 cpue<-cpue_function()
 remove(cpue_function)
 
-moon<-read_csv("C:/Users/tk/Dropbox/Chapman lab/TK and Ronny/2nd data analysis/Stomachs/Data/moon.csv")
+moon<-read_csv("C:/Users/tk/Dropbox/Chapman lab/TK and Ronny/2nd data analysis/achs/Data/moon.csv")
 moon<-moon[,c(1,3)] %>% 
   mutate(date = as.Date(date))
 cpue<-left_join(cpue,moon, by=c("date"))

@@ -15,6 +15,23 @@
 library(tidyverse)
 
 stom<-read_csv("stomachs.csv")
+
+## Which stomach data I have:
+intermediate<-stom %>% 
+  group_by(year, month) %>% 
+  count(tag)
+
+data_I_have<-intermediate %>%  # need the intermediate to list the unique tags per year, then count them
+  group_by(year, month) %>% 
+    count(year)
+
+write_csv(data_I_have, path = "Stomachs_tristan_has.csv")
+
+for(i in sort(unique(paste(stom$year, stom$month)))){
+  print(i)
+  print(count(i))
+}
+
 ltt<-read_csv("ltt-with-NAs.csv")
 np<-read_csv("ltt-with-NAs.csv") %>% 
   filter(fish_code == 7)
