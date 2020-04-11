@@ -31,7 +31,7 @@ for(i in sort(unique(paste(stom$year, stom$month)))){
   print(i)
   print(count(i))
 }
-
+#### Some old stuff, ignore ####
 ltt<-read_csv("ltt-with-NAs.csv")
 np<-read_csv("ltt-with-NAs.csv") %>% 
   filter(fish_code == 7)
@@ -52,3 +52,13 @@ write_csv(NAs, path = "fixing-NAs/entries-with-NA.csv", na = "")
 
 ggplot(data = np) +
   stat_bin(aes(x = date), binwidth = 30)
+#####
+#### Formatting Jennifer's stomach data ####
+
+
+
+
+
+
+
+
