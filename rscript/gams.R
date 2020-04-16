@@ -40,9 +40,9 @@ LTT<-read_csv("ltt-master.csv") %>%
 ##  - NP mass and mass of daily catch
 ##  - Hap CPUE
 ##
-## Descriptive gams
-##  Should habitat be included initially? I vote no because the shoreline was changing, 
-##  and reconstructing that is beyond the scope of the paper. 
+## LTT gams
+##  Should habitat be included initially? Probably yes, but it degrades the predictive ability, which 
+##  which is an interesting result.
 ##
 ## Predictions: 
 ##  Descriptive gams as inputs and compare the predicted model to the
@@ -50,7 +50,7 @@ LTT<-read_csv("ltt-master.csv") %>%
 ##  
 
 
-## NP SL
+#### NP SL ####
 
 NP<-LTT %>% 
   filter(Fish_Code==7,!is.na(SL))  #fix these missing SL values! Also missing tags
@@ -63,3 +63,46 @@ counts<-inter %>%
   group_by(Year,Month) %>% 
   sum(n)
 rm(inter);view(counts)
+
+#### Stomach ####
+## Models
+##  Predition model: GAM of prey ~ s(NP SL) + s(NP abundance) + s(dist from shore)
+##  Validation model: GAM of prey ~ te(NP SL, time)
+##  prey = (%mass + %number)/2, for each individual
+##
+## Then predict each data point based on the SL, abundance, in/offshore conditions at the time
+##  Compare two GAMs (R^2, MSE)
+##
+
+## Replace this with preformatted import in final script
+NP<-read_csv("ltt-master.csv", guess_max = 60000) %>% 
+  mutate(Net = toupper(Net),
+         Comments = toupper(Comments),
+         Site = toupper(Site),
+         cpue_id = paste(`Date (DD-Mon-YY)`,Net,sep = "-"), # probably change colname for publication
+         np_id = paste(`Date (DD-Mon-YY)`,Tag_Num),
+         dist_shore = case_when(Net == "5" ~ "inshore",
+                                Net == "20" ~ "inshore",
+                                Net == "100" ~ "offshore",
+                                Net == "20 EXTRA" ~ "inshore",
+                                Net == "100 EXTRA" ~ "offshore",
+                                Net == "5 EXTRA" ~ "inshore",
+                                Net == "MID" ~ "offshore",
+                                Net == "21 EXTRA" ~ "inshore",
+                                Net == "22 EXTRA" ~ "inshore",
+                                Net == "101 EXTRA" ~ "offshore",
+                                TRUE ~ Net)) %>% 
+  filter(!grepl('MUK', Comments),
+         !grepl('MUK', Net),
+         !grepl('BOUGHT', Net),
+         !grepl('BOUGHT', Comments),
+         Fish_Code == 7)
+
+stom<-inner_join(stom)
+  
+
+
+
+
+
+

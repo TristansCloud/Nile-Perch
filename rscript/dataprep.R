@@ -15,6 +15,7 @@
 library(tidyverse)
 
 stom<-read_csv("stomachs.csv")
+#ltt<-read_csv("ltt-master.csv", guess_max = 60000)
 
 ## Which stomach data I have:
 intermediate<-stom %>% 
@@ -55,10 +56,98 @@ ggplot(data = np) +
 #####
 #### Formatting Jennifer's stomach data ####
 
+raw_file<-read_csv("data to add/Copy of NP Stomachs- Analyzed by Jenn.csv") 
+
+for(i in 1:nrow(raw_file)) {
+  if(is.na(raw_file[i,8])){
+  } else {
+    raw_file[i,7]<-paste(raw_file[i,7],raw_file[i,8], sep = ", ")
+  }
+}
+
+raw_file<-raw_file[,c(1,3:7)]
+
+newcols<-c("year","month","day","preysl","preybd","dissector")
+
+raw_file[,newcols]<-NA
+raw_file[,"dissector"]<-"Jennifer Sunahara"
 
 
+dmy<-strsplit(raw_file$`Date Captured`,"/")
+
+for(i in 1:nrow(raw_file)){
+  if(is.na(raw_file[i,1])){
+  } else{
+    raw_file[i,"year"]<-dmy[[i]][3]
+    raw_file[i,"month"]<-dmy[[i]][2]
+    raw_file[i,"day"]<-dmy[[i]][1]
+  }
+}
+
+raw_file$year[raw_file$year == "..."] <- "2012"
+
+unique(raw_file$`Content (Species)`)
+
+raw_file<-raw_file %>% 
+  mutate(`Content (Species)` = case_when(
+    `Content (Species)` == "CIC" ~ "cichlid",
+    `Content (Species)` == "MF" ~ "ephemeroptera larvae",
+    `Content (Species)` == "NP" ~ "nile perch",
+    `Content (Species)` == "HAP" ~ "hap",
+    `Content (Species)` == "CLA"~ "clarias",
+    `Content (Species)` == "UNID" ~ "ufp",
+    `Content (Species)` == "BARB" ~ "barbus",
+    `Content (Species)` == "ODO" ~ "odonata larvae",
+    `Content (Species)` == "RAS" ~ "mukene",
+    `Content (Species)` == "VEG" ~ "vegitation",
+    `Content (Species)` == "UNIDIN" ~ "uip",
+    `Content (Species)` == "unknown" ~ "unidentified",
+    `Content (Species)` == "HYM" ~ "hymenoptera",
+    `Content (Species)` == "DIP" ~ "diptera",
+    TRUE ~ `Content (Species)`
+  ))
+
+unique(raw_file$`Content (Species)`)
+
+final_file<-raw_file[,2:12] ; rm(raw_file)
+
+colnames(final_file)[1:5]<-c("tag","prey","preynumber","preymass","comments")
+final_file[,"chaoborus"]<-NA
+final_file<-final_file[,colnames(stom)]
+
+final_file<-final_file %>% 
+  filter(tag != "B")
+
+write_csv(final_file, path = "/Users/triskos/git-directory/Nile-Perch/data to add/Jenn 2012 stomachs.csv")
+
+#### Changing tags on Jenn 2011 stomachs ####
+
+ltt<-read_csv("ltt-master.csv", guess_max = 60000)
+
+all_tags<-sort(unique(ltt$Tag_Num))
+print(all_tags[1000:2000])
+print(all_tags[2001:length(all_tags)])
+
+jenn_2011<-read_csv("data to add/Jenn Sunahara 2011.csv",
+                    col_types = cols(
+                      tag = col_character()
+                    ))
+    # never got to it, some tags are like "105.32"
 
 
+#### Creating compiled stomach CSV ####
+
+jenn_2011<-read_csv("data to add/Jenn Sunahara 2011.csv",
+                    col_types = cols(
+                      tag = col_character()
+                    ))
+jenn_2012<-read_csv("data to add/Jenn 2012 stomachs.csv",
+                    col_types = cols(
+                      tag = col_character()
+                    ))
+#str_count(jenn_2012$tag, " ")
+
+stom<-read_csv("stomachs.csv")
 
 
 
