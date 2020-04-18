@@ -73,6 +73,10 @@ rm(inter);view(counts)
 ## Then predict each data point based on the SL, abundance, in/offshore conditions at the time
 ##  Compare two GAMs (R^2, MSE)
 ##
+## I'll need a table with columns [time, prey NP, prey HAP, prey other fish, prey invert, NP SL from GAM @ time & in/offshore,
+##  NP abundance GAM @ time & in/offshore, in/offshore]
+##  The code should be flexible to add site bc that will likely be analyzed too
+##
 
 ## Replace this with preformatted import in final script
 NP<-read_csv("ltt-master.csv", guess_max = 60000) %>% 
@@ -98,9 +102,49 @@ NP<-read_csv("ltt-master.csv", guess_max = 60000) %>%
          !grepl('BOUGHT', Comments),
          Fish_Code == 7)
 
-stom<-inner_join(stom)
-  
+NP<-NP %>% 
+  mutate(year = year(dmy(`Date (DD-Mon-YY)`)),
+         month = month(dmy(`Date (DD-Mon-YY)`)),
+         day = day(dmy(`Date (DD-Mon-YY)`)),
+         tag = as.character(Tag_Num))
 
+STOM<-read_csv("stomachs.csv",guess_max = 60000) %>% 
+  mutate(tag = as.character(tag))
+
+JOINED_STOM<-inner_join(STOM,NP, by = c("year","month","day","tag")) # some to fix but pretty good
+
+JOINED_STOM %>% spread(
+  key = "prey",
+  value = "preynumber"
+)
+
+
+
+# this group by doesnt work
+  group_by(year,month,day,tag) %>% 
+  summarise(np_sl = mean(SL),
+            preynumber = sum(preynumber),
+            preymass = sum(preymass),
+            cichlid_count = if_else(first(prey == c("cichlid","hap","tilapiine cichlid"), sum(preynumber),0)))
+                                          
+              
+              sum(preynumber[prey == "cichlid"]))
+              ifelse( prey == "cichlid", preynumber, 0 ))
+              preynumber[prey %in% c("cichlid","hap","tilapiine cichlid")]))
+# May have to use gather & spread 
+
+iris %>% 
+  group_by(Species) %>% 
+  summarise(pwz = if_else(first(Species == "setosa")
+                          , sum(Petal.Width)
+                          , mean(Petal.Width)))
+
+## Example 2 response GAM
+b <- gam(list(y0~s(x0)+s(x1),y1~s(x2)+s(x3)),family=mvn(d=2),data=dat)
+b
+summary(b)
+plot(b,pages=1)
+solve(crossprod(b$family$data$R))
 
 
 

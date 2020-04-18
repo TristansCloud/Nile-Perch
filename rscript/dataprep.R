@@ -147,7 +147,21 @@ jenn_2012<-read_csv("data to add/Jenn 2012 stomachs.csv",
                     ))
 #str_count(jenn_2012$tag, " ")
 
-stom<-read_csv("stomachs.csv")
+stom<-read_csv("stomachs-oldcopy.csv") %>% # DO NOT OVERWRITE NEW STOM, I fixed a few duplicates that would be undone if I recreated new_stom from the stomachs-old.csv
+  filter(prey != "empty") # there is still an NA 
 
 
+new_stom<-rbind(stom,jenn_2011,jenn_2012, deparse.level = 0) %>% 
+  mutate(month=as.numeric(month),
+         prey = case_when(
+           prey == "unidentifed" ~ "unidentified",
+           prey == "tilapinne cichlid" ~ "tilapiine cichlid",
+           TRUE ~ prey
+         ))
+
+## There are 2 NA preymass, one needs to be found, the other was an empty stomach (removed)
+
+table(new_stom$prey,useNA = "always") # only 1 empty stom
+
+write_csv(new_stom,path="stomachs.csv", append = FALSE)
 

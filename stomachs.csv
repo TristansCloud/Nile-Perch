@@ -534,8 +534,8 @@ year,month,day,tag,prey,preynumber,preymass,preysl,preybd,comments,chaoborus,dis
 2018,8,29,589,ephemeroptera larvae,5,0.11,NA,NA,NA,yes,Tristan Kosciuch
 2018,8,29,592,odonata larvae,8,1.41,NA,NA,NA,yes,Tristan Kosciuch
 2018,8,29,592,ufp,1,0.04,NA,NA,NA,yes,Tristan Kosciuch
-2018,8,30,593,unidentifed,1,0.01,NA,NA,NA,yes,Tristan Kosciuch
-2018,8,30,598,unidentifed,1,0.1,NA,NA,NA,yes,Tristan Kosciuch
+2018,8,30,593,unidentified,1,0.01,NA,NA,NA,yes,Tristan Kosciuch
+2018,8,30,598,unidentified,1,0.1,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,1,599,mukene,9,2.68,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,1,599,ufp,1,0.07,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,1,600,mukene,5,2.02,NA,NA,NA,yes,Tristan Kosciuch
@@ -548,7 +548,6 @@ year,month,day,tag,prey,preynumber,preymass,preysl,preybd,comments,chaoborus,dis
 2018,9,26,618,odonata larvae,1,0.86,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,26,618,ephemeroptera larvae,2,0.01,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,26,618,ufp,2,0.45,NA,NA,NA,yes,Tristan Kosciuch
-2018,9,26,619,empty,1,NA,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,26,620,hap,2,0.14,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,27,623,mukene,2,1.39,NA,NA,NA,yes,Tristan Kosciuch
 2018,9,27,623,ufp,2,0.52,NA,NA,NA,yes,Tristan Kosciuch
@@ -639,7 +638,7 @@ year,month,day,tag,prey,preynumber,preymass,preysl,preybd,comments,chaoborus,dis
 2019,1,10,737,hap,3,12.99,NA,NA,NA,yes,Tristan Kosciuch
 2019,1,10,745,hap,1,2.62,NA,NA,NA,yes,Tristan Kosciuch
 2019,1,10,747,hap,3,15.49,NA,NA,NA,yes,Tristan Kosciuch
-2019,1,10,747,unidentifed,1,0.35,NA,NA,NA,yes,Tristan Kosciuch
+2019,1,10,747,unidentified,1,0.35,NA,NA,NA,yes,Tristan Kosciuch
 2019,1,11,752,mukene,8,3.45,NA,NA,NA,yes,Tristan Kosciuch
 2019,1,11,752,ufp,1,0.04,NA,NA,NA,yes,Tristan Kosciuch
 2019,1,11,752,odonata larvae,2,1.12,NA,NA,NA,yes,Tristan Kosciuch
@@ -1416,7 +1415,7 @@ year,month,day,tag,prey,preynumber,preymass,preysl,preybd,comments,chaoborus,dis
 2010,2,20,1888,ufp,1,0.17,NA,NA,NA,yes,Tristan Kosciuch
 2010,2,20,1888,cichlid,1,2.81,NA,NA,NA,yes,Tristan Kosciuch
 2009,8,8,1431,cichlid,2,1.14,NA,NA,NA,yes,Tristan Kosciuch
-2009,8,8,1431,tilapinne cichlid,1,0.47,NA,NA,NA,yes,Tristan Kosciuch
+2009,8,8,1431,tilapiine cichlid,1,0.47,NA,NA,NA,yes,Tristan Kosciuch
 2009,8,8,1431,ufp,1,0.06,NA,NA,NA,yes,Tristan Kosciuch
 2010,2,19,1843,chironomid pupae,1,0.001,NA,NA,NA,yes,Tristan Kosciuch
 2010,2,19,1843,ephemeroptera larvae,8,0.09,NA,NA,NA,yes,Tristan Kosciuch
@@ -1810,7 +1809,7 @@ year,month,day,tag,prey,preynumber,preymass,preysl,preybd,comments,chaoborus,dis
 2014,9,14,817,cichlid,2,4.76,NA,NA,NA,yes,Tristan Kosciuch
 2014,9,14,818,cichlid,2,6.56,NA,NA,NA,yes,Tristan Kosciuch
 2014,9,14,818,ufp,2,0.34,NA,NA,NA,yes,Tristan Kosciuch
-2014,9,14,823,tilapinne cichlid,1,1,NA,NA,NA,yes,Tristan Kosciuch
+2014,9,14,823,tilapiine cichlid,1,1,NA,NA,NA,yes,Tristan Kosciuch
 2014,9,14,823,barbus,1,0.72,NA,NA,NA,yes,Tristan Kosciuch
 2014,9,14,823,hap,1,0.75,2.5,1,NA,yes,Tristan Kosciuch
 2014,9,17,852,cichlid,1,0.66,NA,NA,NA,yes,Tristan Kosciuch
@@ -1934,7 +1933,7 @@ year,month,day,tag,prey,preynumber,preymass,preysl,preybd,comments,chaoborus,dis
 2014,12,11,914,ephemeroptera larvae,2,0.01,NA,NA,NA,yes,Tristan Kosciuch
 2014,12,11,914,odonata larvae,1,0.05,NA,NA,NA,yes,Tristan Kosciuch
 2014,12,11,914,ufp,3,0.62,NA,NA,NA,yes,Tristan Kosciuch
-2014,12,13,953,tilapinne cichlid,1,0.16,1.7,0.6,NA,yes,Tristan Kosciuch
+2014,12,13,953,tilapiine cichlid,1,0.16,1.7,0.6,NA,yes,Tristan Kosciuch
 2014,12,11,926,cichlid,1,0.58,NA,NA,NA,yes,Tristan Kosciuch
 2014,12,11,926,hap,2,1.18,NA,NA,NA,yes,Tristan Kosciuch
 2014,12,14,969,cichlid,1,0.45,NA,NA,NA,yes,Tristan Kosciuch
@@ -1982,3 +1981,264 @@ year,month,day,tag,prey,preynumber,preymass,preysl,preybd,comments,chaoborus,dis
 2008,7,27,979,hap,3,71.5,12.9,4.75,Hippo-kawuwa,yes,Tristan Kosciuch
 2008,7,27,979,ephemeroptera larvae,1,0.01,NA,NA,NA,yes,Tristan Kosciuch
 2010,4,14,122,ufp,2,5.88,NA,NA,"past pump hippo, open water",yes,Tristan Kosciuch
+2011,9,16,569,ufp,1,0.5378,NA,NA,flesh and bone,NA,Jennifer Sunahara
+2011,9,14,515,ephemeroptera larvae,many,0.5111,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,9,727,hap,1,1.4083,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,9,727,cichlid,1,0.9472,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,9,727,vegitation,NA,0.0168,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,521,ephemeroptera larvae,many,0.4084,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,29,544,odonata larvae,1,0.0406,NA,NA,"highly digested, visible head",NA,Jennifer Sunahara
+2011,11,11,612,hap,1,0.3501,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,776,ephemeroptera larvae,4,0.1872,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,776,diptera adult,2,0.0269,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,7,105.26,ephemeroptera larvae,many,0.8124,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,7,572,diptera,many,0.1276,NA,NA,"adult, larvae, or pupae not specified",NA,Jennifer Sunahara
+2011,9,7,572,vegitation,NA,0.1112,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,7,572,unidentified,NA,0.1811,NA,NA,digested ooze,NA,Jennifer Sunahara
+2011,11,11,610,ephemeroptera larvae,1,0.0353,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,11,610,ufp,1,0.2058,NA,NA,flesh and bone,NA,Jennifer Sunahara
+2012,1,12,777,ephemeroptera larvae,many,0.5105,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,777,diptera,4,0.0345,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,777,ufp,1,0.5029,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,9,728,nile perch,1,1.3543,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,9,728,cichlid,1,0.6742,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,9,728,vegitation,NA,0.657,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,12,626,diptera,many,0.3476,NA,NA,white and small. Likely labeled chaoborus in data entered by Tristan Kosciuch,NA,Jennifer Sunahara
+2011,12,9,719,ufp,1,0.2359,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,7,70.23,ephemeroptera larvae,many,0.9842,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,780,ephemeroptera larvae,many,1.2853,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,771,vegitation,NA,1.4996,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,771,hap,3,2.2698,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,771,ephemeroptera larvae,3,0.1147,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,706,ephemeroptera larvae,3,0.083,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,706,diptera,2,0.0175,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,706,vegitation,NA,0.0974,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,10,607,vegitation,NA,2.6475,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,12,627,ufp,1,0.2643,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,12,627,uip,1,0.0696,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,713,ephemeroptera larvae,many,1.4426,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,521,hap,1,0.4324,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,521,ufp,1,0.0939,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,521,ephemeroptera larvae,many,0.3282,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,522,ephemeroptera larvae,3,0.1835,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,9,598,vegitation,NA,0.018,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,9,598,leech,many,0.2098,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,9,598,odonata larvae,2,0.2941,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,782,ephemeroptera larvae,many,0.9197,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,782,diptera,10,0.071,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,708,ephemeroptera larvae,many,1.348,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,708,leech,many,0.1357,NA,NA,prey was labelled intestine-leeches,NA,Jennifer Sunahara
+2011,12,8,708,vegitation,NA,0.0233,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,9,718,ufp,1,1.0035,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,10,600,ufp,2,1.5108,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,10,600,vegitation,NA,0.4439,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,10,600,ephemeroptera larvae,1,0.0144,NA,NA,NA,NA,Jennifer Sunahara
+2011,10,12,577,vegitation,NA,0.1122,NA,NA,NA,NA,Jennifer Sunahara
+2011,10,12,577,ephemeroptera larvae,many,0.4208,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,717,diptera,12,0.0796,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,717,ephemeroptera larvae,2,0.0796,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,717,vegitation,NA,0.8904,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,8,717,unidentified,3,0.0924,NA,NA,"white, smaller, maybe worm? Prey number said “few”",NA,Jennifer Sunahara
+2011,12,9,723,cichlid,1,0.1516,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,29,550,hap,1,0.797,NA,NA,NA,NA,Jennifer Sunahara
+2011,10,14,588,nile perch,1,1.2142,NA,NA,NA,NA,Jennifer Sunahara
+2011,10,14,588,cichlid,2,1.2737,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,9,593,leech,many,0.4001,NA,NA,Intestines-leeches,NA,Jennifer Sunahara
+2012,1,12,769,ephemeroptera larvae,many,1.3343,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,12,769,diptera,2,0.0071,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,526,ephemeroptera larvae,many,1.9352,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,526,vegitation,NA,0.0738,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,529,ephemeroptera larvae,many,0.3529,NA,NA,NA,NA,Jennifer Sunahara
+2011,10,15,590,cichlid,1,0.4073,NA,NA,NA,NA,Jennifer Sunahara
+2011,10,15,590,odonata larvae,1,0.0658,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,535,ephemeroptera larvae,many,1.1675,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,535,vegitation,NA,0.0125,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,520,diptera,many,0.1395,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,520,unidentified,NA,0.1552,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,539,odonata larvae,2,0.6199,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,539,ephemeroptera larvae,1,0.0678,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,524,nile perch,1,3.6151,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,524,hap,1,0.2566,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,519,ufp,1,0.6311,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,523,hap,1,0.6149,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,523,vegitation,NA,0.0867,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,14,524,ufp,1,0.3943,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,7,86.89,ephemeroptera larvae,many,0.4918,NA,NA,NA,NA,Jennifer Sunahara
+2011,11,8,712,ephemeroptera larvae,many,0.6042,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,15,565,hap,1,2.4821,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,15,565,cichlid,1,0.5735,NA,NA,NA,NA,Jennifer Sunahara
+2011,9,15,565,leech,NA,0.0966,NA,NA,Intestines-leeches,NA,Jennifer Sunahara
+2011,9,15,564,ephemeroptera larvae,many,1.8631,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,531,ephemeroptera larvae,many,1.5598,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,531,vegitation,NA,0.0208,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,7,77.77,ephemeroptera larvae,many,1.2692,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,28,534,ephemeroptera larvae,many,0.8573,NA,NA,NA,NA,Jennifer Sunahara
+2011,12,7,922,ephemeroptera larvae,many,0.5312,NA,NA,tag may be 9.22,NA,Jennifer Sunahara
+2011,8,2,560,mukene,2,2.1556,NA,NA,NA,NA,Jennifer Sunahara
+2011,7,20,551,odonata larvae,1,0.1379,NA,NA,NA,NA,Jennifer Sunahara
+2011,7,20,551,ufp,1,0.2226,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,2,559,ufp,4,2.4373,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,29,546,clarias,2,0.9907,NA,NA,prey said “CLA”,NA,Jennifer Sunahara
+2011,8,29,546,odonata larvae,1,0.2266,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,29,546,vegitation,NA,0.0652,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,29,546,unidentified,NA,0.2878,NA,NA,NA,NA,Jennifer Sunahara
+2011,8,29,502,ephemeroptera larvae,many,0.4383,NA,NA,NA,NA,Jennifer Sunahara
+2011,10,14,586,hap,2,4.7062,NA,NA,one of the haps has babies in its mouth,NA,Jennifer Sunahara
+2011,10,14,586,odonata larvae,1,0.2694,NA,NA,NA,NA,Jennifer Sunahara
+2011,6,9,2,vegitation,NA,35.9366,NA,NA,tag was “002”,NA,Jennifer Sunahara
+2012,12,19,142,hap,1,1.4889,NA,NA,"Could not find pharyngeal jaw, but it had a spiny anal fin and the right body shape",NA,Jennifer Sunahara
+2012,11,23,23,nile perch,10,19.5555,NA,NA,"Dorsal fins, body shape, no pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,23,23,ephemeroptera larvae,1,0.0093,NA,NA,just the head,NA,Jennifer Sunahara
+2012,12,18,128,cichlid,1,5.2738,NA,NA,"pharyngeal jaws, spiny anal fin, long dorsal fin",NA,Jennifer Sunahara
+2012,11,18,1164,ufp,1,0.2014,NA,NA,"probably 2012, bones, gills",NA,Jennifer Sunahara
+2012,12,18,108,ufp,2,0.8159,NA,NA,"no pharyngeal jaw, mostly decomposed, just bones and a little flesh (no body shape), no fins",NA,Jennifer Sunahara
+2012,12,18,123,ufp,1,0.8984,NA,NA,"flesh and bone, no pharyngeal jaw, no fins",NA,Jennifer Sunahara
+2012,11,18,1167,ephemeroptera larvae,6,0.1166,NA,NA,"2 detached heads, 4 heads with partial bodies",NA,Jennifer Sunahara
+2012,12,18,119,barbus,2,0.675,NA,NA,"looks like RAS based on body shape, but unsure; later: confirmed to be BARB by Lauren",NA,Jennifer Sunahara
+2012,12,19,134,diptera,3,0.0061,NA,NA,"nice specimens, obvious heads and well preserved",NA,Jennifer Sunahara
+2012,12,19,134,ufp,2,0.3362,NA,NA,"no pharyngeal jaw, flesh and bone, no fin",NA,Jennifer Sunahara
+2012,12,17,96,mukene,3,2.4946,NA,NA,"clear body shape, line and fins",NA,Jennifer Sunahara
+2012,12,18,115,mukene,3,2.3906,NA,NA,"clear body shape, line and fins",NA,Jennifer Sunahara
+2012,11,18,1159,ufp,1,0.2733,NA,NA,"no pharyngeal jaws, no fins, only flesh and bone and decomposed scales",NA,Jennifer Sunahara
+2012,11,18,1159,vegitation,NA,0.0036,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,28,45,uip,1,0.0552,NA,NA,"very decomposed, bits of abdomen from insect, presence of flesh that kind of looks like fish flesh under the scope, no bones",NA,Jennifer Sunahara
+2012,12,18,124,ufp,1,0.8426,NA,NA,"flesh and bones of what seems like one fish (one set), no jaws or fins",NA,Jennifer Sunahara
+2012,11,28,49,ephemeroptera larvae,1,0.0102,NA,NA,one mandible and bit of flesh,NA,Jennifer Sunahara
+2012,11,28,49,ufp,1,0.3279,NA,NA,"set aside a head, because I didn't want to destroy it before getting someone to look at it; later: confirmed to be UNID by Lauren",NA,Jennifer Sunahara
+2012,11,17,914,hap,1,5.2977,NA,NA,"dorsal fin across the back, teeth (as Lauren showed me according to a poster in the lab near Igor's desk), presence of pharyngeal jaw, head unlike Tilapia",NA,Jennifer Sunahara
+2012,12,18,113,ufp,1,0.324,NA,NA,no body shape or fins; only flesh and bone,NA,Jennifer Sunahara
+2012,11,29,55,diptera,-,0.7164,NA,NA,"2 different species of dip, very distinct, noteworthy",NA,Jennifer Sunahara
+2012,8,27,971,cichlid,1,0.1775,NA,NA,"pharyngeal jaw, but no body shape or fins",NA,Jennifer Sunahara
+2012,12,18,100,hap,8,1.2908,NA,NA,"pharyngeal jaw, body shape of HAP (confirmed by Lauren)",NA,Jennifer Sunahara
+2012,12,18,104,mukene,2,1.6062,NA,NA,"body shape looks like RAS, no fins, black line; (confirmed by Lauren)",NA,Jennifer Sunahara
+2013,1,24,168,hap,2,4.066,NA,NA,Nice ctenoid scales; very well preserved; clear body shape and fins,NA,Jennifer Sunahara
+2013,11,23,24,hap,2,4.5093,NA,NA,"body shape, fins, pharyngeal jaws",NA,Jennifer Sunahara
+2013,11,23,24,vegitation,NA,0.0206,NA,NA,NA,NA,Jennifer Sunahara
+2012,12,17,98,mukene,1,0.5897,NA,NA,"body shape, fins, black line",NA,Jennifer Sunahara
+2012,12,17,98,ufp,1,0.0242,NA,NA,swim bladder (that's all),NA,Jennifer Sunahara
+2012,9,29,910,ufp,7,1.2637,NA,NA,"different spines, but no fins, no pharyngeal jaws, very little body shape",NA,Jennifer Sunahara
+2012,11,24,39,ufp,2,2.1994,NA,NA,"no fins, body shape looks a little like HAP, ctenoid scales, no pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,24,39,vegitation,NA,0.0543,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,22,5,hap,1,1.3797,NA,NA,"pharyngeal jaw, HAP body shape, scales ctenoid",NA,Jennifer Sunahara
+2012,11,22,5,ufp,1,1.3944,NA,NA,"mass of flesh and bone, no pharyngeal jaw, not much body shape, no fins",NA,Jennifer Sunahara
+2012,9,28,905,cichlid,1,0.7074,NA,NA,"pharyneal jaw, unclear body shape",NA,Jennifer Sunahara
+2012,9,28,905,nile perch,4,2.2209,NA,NA,"one looks like it might be NP, others had no pharyngeal jaws and unclear body shapes; later: confirmed to be NP by Lauren",NA,Jennifer Sunahara
+2012,11,29,61,hap,1,1.1085,NA,NA,"pharyngeal jaws, ctenoid scales, body shape (good specimen!)",NA,Jennifer Sunahara
+2012,1,26,197,cichlid,2,0.8126,NA,NA,"pharyngeal jaw, body shape unclear, no scales",NA,Jennifer Sunahara
+2012,1,26,197,ufp,1,0.2593,NA,NA,"no pharyngeal jaw, no fins, no body shape",NA,Jennifer Sunahara
+2012,9,29,907,mukene,1,1.6573,NA,NA,"the label might say 902, but probably 907; abdomen distended because it was pregnant (visible eggs)",NA,Jennifer Sunahara
+2013,1,22,147,cichlid,1,0.1544,NA,NA,"pharyngeal jaws, no scales, few fins, difficult to tell body shape because the head was disconnected from the body",NA,Jennifer Sunahara
+2012,11,17,916,ephemeroptera larvae,2,0.145,NA,NA,NA,NA,Jennifer Sunahara
+2012,8,27,974,ufp,9,0.8511,NA,NA,"no pharyngeal jaws, not much fins, maybe HAP body, but no jaws (hard to be sure though, as the fish were very small)",NA,Jennifer Sunahara
+2012,11,18,1154,ufp,1,0.2541,NA,NA,"piece of flesh abd bone, no pharyngeal jaw",NA,Jennifer Sunahara
+2012,12,18,106,cichlid,1,4.4019,NA,NA,pharyngeal jaws,NA,Jennifer Sunahara
+2012,12,18,106,vegitation,NA,0.0524,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,23,16,diptera,10,0.0352,NA,NA,"2 different species (maybe even 3), noteworthy",NA,Jennifer Sunahara
+2012,9,28,906,ufp,2,0.6931,NA,NA,"missing year of capture on the label, no pharyngeal jaws, incomplete bodies",NA,Jennifer Sunahara
+2012,9,28,904,odonata larvae,1,0.1568,NA,NA,"might be 909, but probably 904",NA,Jennifer Sunahara
+2013,1,22,148,ufp,1,0.0064,NA,NA,"flesh and bones (small, tiny bones)",NA,Jennifer Sunahara
+2012,8,28,986,ephemeroptera larvae,7,0.1652,NA,NA,"7 heads, mass of cerci and flesh",NA,Jennifer Sunahara
+2012,8,28,985,ufp,1,0.8134,NA,NA,"mass of flesh and bone, no pharyngeal jaws, no fins",NA,Jennifer Sunahara
+2012,11,17,1152,ephemeroptera larvae,5,0.1147,NA,NA,"5 heads, mass of cerci and flesh",NA,Jennifer Sunahara
+2012,11,22,7,cichlid,1,0.4561,NA,NA,"pharyngeal jaws, no scales, no fins, maybe HAP body shape, but not much body",NA,Jennifer Sunahara
+2012,12,18,117,ufp,1,0.668,NA,NA,"no pharyngeal jaws, no fins, no scales, not much body shape",NA,Jennifer Sunahara
+2012,12,18,117,cichlid,2,2.3217,NA,NA,"pharyngeal jaws, no sales, maybe HAP shape, but very unsure",NA,Jennifer Sunahara
+2012,12,18,117,hap,2,5.6854,NA,NA,"pharyngeal jaws, ctenoid scales, HAP body shape",NA,Jennifer Sunahara
+2012,12,18,117,vegitation,NA,0.1096,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,22,10,nile perch,1,1.5566,NA,NA,"large spikes on the dorsal fin, body shape, no pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,18,1166,nile perch,1,0.6079,NA,NA,Might have pharyngeal jaws? I could not find the lower one. Found something that looked like an upper pharyngeal jaw. The body shape looks like NP and it had large spines on the dorsal fin; later: confirmed to be NP by Lauren,NA,Jennifer Sunahara
+2012,12,17,90,ufp,1,0.4055,NA,NA,"no pharyngeal jaws, no fins, no scales, not much body shape",NA,Jennifer Sunahara
+2012,11,17,1153,ufp,1,0.2003,NA,NA,"no pharyngeal jaws, no fins, no scales, not much body shape",NA,Jennifer Sunahara
+2012,11,17,1153,diptera,2,0.0104,NA,NA,2 species,NA,Jennifer Sunahara
+2012,12,18,120,hap,1,8.3473,NA,NA,"pharyngeal jaws, ctenoid scales, body shape, fins (good specimen)",NA,Jennifer Sunahara
+2013,1,26,180,hap,2,4.5703,NA,NA,"could also be 26/07/2013, but probably 26/01/2013; pharyngeal jaws, HAP body shape, fins and ctenoid scales",NA,Jennifer Sunahara
+2013,1,26,180,cichlid,1,1.3485,NA,NA,"pharyngeal jaws, but no scales, few fins and little body shape",NA,Jennifer Sunahara
+2012,12,14,78,cichlid,1,19.2273,NA,NA,"very large; pharyngeal jaws, no clear scales, body shape unclear",NA,Jennifer Sunahara
+2012,12,14,78,ufp,1,1.0186,NA,NA,"no pharyngeal jaws, no fins, no scales, no body shape",NA,Jennifer Sunahara
+2012,12,14,71,ufp,1,1.116,NA,NA,no pharyngeal jaws fish head with a little bit of body,NA,Jennifer Sunahara
+2012,11,29,60,cichlid,1,3.9109,NA,NA,"pharyngeal jaws, looks like HAP, but not enough body shape to be sure",NA,Jennifer Sunahara
+2012,11,22,4,cichlid,1,0.7402,NA,NA,"pharyngeal jaws, very little actual body shape",NA,Jennifer Sunahara
+2013,1,25,200,ufp,1,0.0475,NA,NA,small fish with not much body shape; flesh & bones; no pharyngeal jaws,NA,Jennifer Sunahara
+2013,1,25,200,diptera,many,0.1712,NA,NA,"at least 2 species (white and small; green and larger), noteworthy",NA,Jennifer Sunahara
+2012,12,17,92,mukene,2,2.4676,NA,NA,"black line, body shape, dorsal and anal fin are aligned, no pharyngeal jaws",NA,Jennifer Sunahara
+2012,12,14,76,mukene,1,1.1193,NA,NA,"black line, body shape looks like RAS, but no fins to confirm; no pharyngeal jaws; later: confirmed to be RAS by Lauren",NA,Jennifer Sunahara
+2012,11,18,1155,cichlid,1,0.5986,NA,NA,"pharyngeal jaws, no fins, no body shape",NA,Jennifer Sunahara
+2012,11,18,1155,ephemeroptera larvae,1,0.0216,NA,NA,incomplete body,NA,Jennifer Sunahara
+2012,11,18,1155,diptera,1,0.0119,NA,NA,NA,NA,Jennifer Sunahara
+2012,9,28,999,ufp,1,0.9879,NA,NA,just a mass of flesh and bone,NA,Jennifer Sunahara
+2012,9,28,999,vegitation,NA,0.3032,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,29,59,hap,2,1.2936,NA,NA,"pharyngeal jaws, body shape, fins, ctenoid scales",NA,Jennifer Sunahara
+2012,11,29,59,cichlid,1,0.1997,NA,NA,"pharyngeal jaws, not much body shape, no fins, nor scales",NA,Jennifer Sunahara
+2012,11,22,14,nile perch,1,3.4708,NA,NA,"no pharyngeal jaws, huge spikes on the dorsal fin, body shape",NA,Jennifer Sunahara
+2012,11,28,44,cichlid,1,0.3162,NA,NA,"pharyngeal jaws, no body (just head), no scales",NA,Jennifer Sunahara
+2013,1,25,179,ufp,2,1.3029,NA,NA,"no pharyngeal jaws, no fins; just flesh & bone (might be 25/04/2013)",NA,Jennifer Sunahara
+2012,1,22,146,diptera,4,0.0259,NA,NA,NA,NA,Jennifer Sunahara
+2013,1,26,188,cichlid,1,0.6469,NA,NA,"pharyngeal jaws, fins, body shape looks HAP, no scales to confirm",NA,Jennifer Sunahara
+2012,11,28,42,clarias,1,2.1494,NA,NA,"barbels, body & body shape",NA,Jennifer Sunahara
+2012,11,28,42,cichlid,1,0.4644,NA,NA,"pharyngeal jaws, not much body shape, no scales",NA,Jennifer Sunahara
+2012,11,28,42,vegitation,NA,0.5935,NA,NA,NA,NA,Jennifer Sunahara
+2013,1,25,192,cichlid,1,0.3381,NA,NA,"pharyngeal jaws, not much body shape, no fins",NA,Jennifer Sunahara
+2012,12,14,73,ufp,1,1.1168,NA,NA,"flesh & bone, no fins, no body shape",NA,Jennifer Sunahara
+2012,12,14,73,cichlid,1,0.5175,NA,NA,"pharyngeal jaws, no real body shape, no fins",NA,Jennifer Sunahara
+2012,11,28,54,hap,1,1.4973,NA,NA,"pharyngeal jaws, ctenoid scales, body shape and fins",NA,Jennifer Sunahara
+2012,11,28,54,diptera,1,0.0086,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,18,1171,nile perch,1,1.0622,NA,NA,"no pharyngeal jaws, not much body shape, long spines of dorsal fin, head shape typical of NP",NA,Jennifer Sunahara
+2012,11,23,21,ufp,1,0.5243,NA,NA,"no pharyngeal jaws, not much body, no fins",NA,Jennifer Sunahara
+2012,8,27,975,odonata larvae,2,0.8581,NA,NA,"quite digested, but abdomen and heads intact",NA,Jennifer Sunahara
+2012,8,27,975,ephemeroptera larvae,1,0.0452,NA,NA,NA,NA,Jennifer Sunahara
+2012,8,27,975,ufp,1,0.3187,NA,NA,"flesh and bone, no pharyngeal jaws",NA,Jennifer Sunahara
+2013,1,26,193,ufp,3,0.5338,NA,NA,"bodies in pieces, body shape unclear, no pharyngeal jaws, no useful fins",NA,Jennifer Sunahara
+2012,11,17,922,ufp,1,0.4736,NA,NA,"no pharyngeal jaws, no fins, not much body shape (might have a NP shape)",NA,Jennifer Sunahara
+2013,1,24,172,diptera,many,0.5122,NA,NA,one species (green),NA,Jennifer Sunahara
+2013,1,23,167,diptera,many,0.3743,NA,NA,one species (green),NA,Jennifer Sunahara
+2013,1,23,167,ufp,1,0.0656,NA,NA,mass of flesh and bone,NA,Jennifer Sunahara
+2012,1,26,198,diptera,many,0.1077,NA,NA,NA,NA,Jennifer Sunahara
+2012,1,26,198,hap,1,0.4283,NA,NA,"pharyngeal jaw, ctenoid scales, body shape",NA,Jennifer Sunahara
+2012,1,26,198,cichlid,1,0.2395,NA,NA,"pharyngeal jaw, no scales, not much body shape",NA,Jennifer Sunahara
+2012,1,26,198,ufp,1,0.0625,NA,NA,mass of flesh and bone,NA,Jennifer Sunahara
+2012,11,17,917,cichlid,1,0.428,NA,NA,mass of flesh and bone; pharyngeal jaw,NA,Jennifer Sunahara
+2013,1,23,156,diptera,9,0.0433,NA,NA,2 species,NA,Jennifer Sunahara
+2013,1,23,156,ufp,1,0.0534,NA,NA,flesh and bone,NA,Jennifer Sunahara
+2012,8,27,976,ufp,1,0.0942,NA,NA,"visible head, but highly digested, mainly flesh and bone",NA,Jennifer Sunahara
+2012,11,28,43,ufp,1,0.3989,NA,NA,"very digested, visible head, but not much body shape, no pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,28,43,hymenoptera,1,4e-4,NA,NA,not very confident about that weight (probably les than the error margin),NA,Jennifer Sunahara
+2013,1,23,155,diptera,many,0.2127,NA,NA,NA,NA,Jennifer Sunahara
+2013,1,23,155,ufp,1,0.0647,NA,NA,"flesh and bone, no head, no fins",NA,Jennifer Sunahara
+2012,11,17,920,ufp,1,3.5155,NA,NA,"flesh and bone, no pharyngeal jaw",NA,Jennifer Sunahara
+2012,11,18,1174,hap,1,0.7879,NA,NA,"pharyngeal jaws, ctenoid scales, body shape",NA,Jennifer Sunahara
+2012,11,17,1151,diptera,4,0.0229,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,17,1151,ufp,1,0.3856,NA,NA,"no pharyngeal jaws, not much body shape, no fins",NA,Jennifer Sunahara
+2012,12,17,86,diptera,many,0.0506,NA,NA,NA,NA,Jennifer Sunahara
+2012,12,17,86,ephemeroptera larvae,1,0.0046,NA,NA,"one set of jaws, no body",NA,Jennifer Sunahara
+2012,12,17,86,ufp,1,0.3274,NA,NA,"flesh and bone, no head, no fins, no body shape",NA,Jennifer Sunahara
+2013,1,23,158,ufp,1,0.5023,NA,NA,bone and flesh,NA,Jennifer Sunahara
+2013,11,24,36,cichlid,1,0.5287,NA,NA,"pharygeal jaws, not much body shape, no scales",NA,Jennifer Sunahara
+2012,11,18,1162,ufp,1,0.4385,NA,NA,just flesh and bone,NA,Jennifer Sunahara
+2013,1,25,181,diptera,many,0.536,NA,NA,weight is probably a bit inaccurate as there were loose DIP in vial,NA,Jennifer Sunahara
+2012,12,18,131,ufp,1,0.2173,NA,NA,"very digested, visible head, no body shape, no fins, no jaws",NA,Jennifer Sunahara
+2013,1,24,169,diptera,many,0.4133,NA,NA,weight may be a bit inaccurate due to a few loose DIP,NA,Jennifer Sunahara
+2013,1,25,183,diptera,many,0.2298,NA,NA,NA,NA,Jennifer Sunahara
+2012,11,17,915,ufp,1,0.8212,NA,NA,"flesh & bone, no head, no fins, no jaws",NA,Jennifer Sunahara
+2013,1,23,159,cichlid,1,0.4787,NA,NA,"flesh & bone, pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,18,1160,ufp,1,1.3127,NA,NA,"flesh & bone, no head, no fins, no jaws, no shape",NA,Jennifer Sunahara
+2012,12,19,135,ufp,1,0.0397,NA,NA,flesh & bone,NA,Jennifer Sunahara
+2012,12,19,135,hap,1,0.9071,NA,NA,"great condition, shape, pharyngeal jaws, ctenoid scales",NA,Jennifer Sunahara
+2012,11,17,912,hap,1,0.9729,NA,NA,"body shape, pharyngeal jaws, ctenoid scales, good condition",NA,Jennifer Sunahara
+2013,1,23,161,diptera,many,0.1227,NA,NA,NA,NA,Jennifer Sunahara
+2013,1,23,161,ufp,1,0.9164,NA,NA,flesh & bone,NA,Jennifer Sunahara
+2012,11,29,65,ufp,1,0.1722,NA,NA,flesh & bone,NA,Jennifer Sunahara
+2012,11,24,32,nile perch,1,1.5112,NA,NA,"body in 2 pieces, but clear NP fins & body shape, no pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,23,20,ephemeroptera larvae,1,0.0017,NA,NA,just the head,NA,Jennifer Sunahara
+2012,11,23,20,cichlid,1,0.2808,NA,NA,"mass of flesh & bone, pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,28,47,cichlid,1,3.1631,NA,NA,"not much body shape, pharyngeal jaws",NA,Jennifer Sunahara
+2012,11,17,925,ufp,1,0.5226,NA,NA,"just the head, not much body shape, no fins",NA,Jennifer Sunahara
+2012,12,19,138,vegitation,much,0.0049,NA,NA,NA,NA,Jennifer Sunahara
+2012,12,19,138,ufp,1,0.1482,NA,NA,flesh & bone & scale,NA,Jennifer Sunahara
+2013,1,24,170,diptera,many,1.2981,NA,NA,many & green,NA,Jennifer Sunahara
+2013,1,25,187,diptera,many,0.3203,NA,NA,many & green,NA,Jennifer Sunahara
+2013,1,25,187,ufp,1,0.1327,NA,NA,flesh & bone,NA,Jennifer Sunahara
+2013,1,23,162,diptera,many,0.4313,NA,NA,green & many,NA,Jennifer Sunahara
+2013,1,23,162,unidentified,much,0.1886,NA,NA,"flesh (no bones), looks like worm? or leech?",NA,Jennifer Sunahara
+2013,1,23,164,diptera,many,0.1289,NA,NA,many & green,NA,Jennifer Sunahara
+2013,1,23,164,hap,1,0.9954,NA,NA,"pharyngeal jaws, ctenoid scales, body shape",NA,Jennifer Sunahara
+2012,11,28,50,cichlid,1,1.3612,NA,NA,"pharyngeal jaws, body shape unsure, no visible fins, no scales",NA,Jennifer Sunahara
