@@ -173,21 +173,25 @@ STOMGAM<-STOMGAM %>%
             nile_perch = ((mass_nile_perch/total_preymass)+(count_nile_perch/total_preynumber))/2,
             other_fish = ((mass_other_fish/total_preymass)+(count_other_fish/total_preynumber))/2,
             muk_or_barb = ((mass_muk_or_barb/total_preymass)+(count_muk_or_barb/total_preynumber))/2) %>% 
+  unite(col = date_of_capture, year,month,day, sep = ".") %>% 
   mutate(cichlid = if_else(is.na(cichlid),0,cichlid),
          invert = if_else(is.na(invert),0,invert),
          nile_perch = if_else(is.na(nile_perch),0,nile_perch),
          other_fish = if_else(is.na(other_fish),0,other_fish),
          muk_or_barb = if_else(is.na(muk_or_barb),0,muk_or_barb),
-         date_of_capture = as.Date())
+         date_of_capture = as.numeric(ymd(date_of_capture)))
+  
 
 ## Stomach GAM ##
 # good tutorial on mcgvViz: https://mfasiolo.github.io/mgcViz/articles/mgcviz.html
-stom_gam<-gam(list(
-  cichlid ~ te(date_of_capture,SL) + s(dist_shore,bs="re"),
-  invert,
-  nile_perch,
-  other_fish,
-  muk_or_barb
+stom_gam<-gam(cichlid ~ s(date_of_capture,SL, by = dist_shore), data=STOMGAM)
+  
+  gam(list(
+  cichlid ~ s(date_of_capture,SL, by = dist_shore),
+  invert ~ s(date_of_capture,SL, by = dist_shore),
+  nile_perch ~ s(date_of_capture,SL, by = dist_shore),
+  other_fish ~ s(date_of_capture,SL, by = dist_shore),
+  muk_or_barb ~ s(date_of_capture,SL, by = dist_shore)
   ),
   family=mvn(d=5),data=STOMGAM)
 
@@ -208,11 +212,13 @@ for (i in 1:n) {
   mu <- c(f0(x0[i])+f1(x1[i]),f2(x2[i]))
   y[i,] <- rmvn(1,mu,V)
 }
-dat <- data.frame(y0=y[,1],y1=y[,2],x0=x0,x1=x1,x2=x2,x3=x3)
+dat <- data.frame(y0=y[,1],y1=y[,2],x0=x0,x1=x1,x2=x2,x3=x3) %>% 
+  mutate(cat = as.factor(case_when(x0 <= 0.5 ~ "yes",
+                         x0 > 0.5 ~ "no")))
 
 ## fit model...
-
-b <- gam(list(y0~te(x0,x1),y1~te(x2,x3)),family=mvn(d=2),data=dat)
+b <- gam(y0~s(x0,x1,by = cat),data = dat)
+b <- gam(list(y0~s(x0,by = cat),y1~te(x2,x3)),family=mvn(d=2),data=dat)
 b
 summary(b)
 plot.gamViz(b,pages=1)
