@@ -190,7 +190,7 @@ ggplot(np, aes(date)) +
 
 
 #This function is interesting because it shows how 
-#although after the bas, whenever we catch fish we catch more biomass
+#although after the ban, whenever we catch fish we catch more biomass
 #than we did before the ban. However, there are more days with 0 catch,
 #and on average we catch a similar amount, if not less total biomass.
 
