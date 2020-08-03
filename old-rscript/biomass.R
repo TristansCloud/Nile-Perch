@@ -78,29 +78,4 @@ points(tester$biomass,tester$date)
 plot(tester$biomass~tester$ndate)
 lines(model1)
 
-library(mgcv)
-set.seed(0)
-n<-200
-sig2<-4
-x0 <- rep(1:4,50)
-x1 <- runif(n, 0, 1)
-x2 <- runif(n, 0, 1)
-x3 <- runif(n, 0, 1)
-y <- 2 * x0
-y <- y + exp(2 * x1) - 3.75887
-y <- y+0.2*x2^11*(10*(1-x2))^6+10*(10*x2)^3*(1-x2)^10-1.396
-e <- rnorm(n, 0, sqrt(abs(sig2)))
-y <- y + e
-x0 <- factor(x0)
-b<-gam(y~x0+s(x1)+s(x2)+s(x3))
-plot(b,pages=1,residuals=TRUE,all.terms=TRUE,shade=TRUE,shade.col=2)
-# just parametric term alone
-termplot(b,terms="x0",se=TRUE)
-# example with 2-d plots
-b1<-gam(y~x0+s(x1,x2)+s(x3))
-op<-par(mfrow=c(2,2))
-plot(b1,all.terms=TRUE)
-par(op)
-
-
 

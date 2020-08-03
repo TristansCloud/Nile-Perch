@@ -1,8 +1,8 @@
 library(tidyverse)
 library(lubridate)
 library(data.table)
-library(mgcv)
-library(mgcViz)
+#library(mgcv)
+#library(mgcViz)
 library(tidymv)
 
 #######################
@@ -38,12 +38,7 @@ LTT<-read_csv("TKSTOM-ltt-master.csv", guess_max = 60000) %>%
                               fish_code== 2 ~ "brycinus",
                               fish_code== 7 ~ "nile_perch",
                               fish_code== 9 ~ "tilapia",
-                              fish_code== 10 ~ "tilapia bv",
-                              fish_code== ~ "",
-                              fish_code== ~ "",
-                              fish_code== ~ "",
-                              ),
-         ) %>% 
+                              fish_code== 10 ~ "tilapia bv")) %>% 
   filter(!grepl('MUK', Comments),
          !grepl('MUK', Net),
          !grepl('BOUGHT', Net),
